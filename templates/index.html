@@ -39,31 +39,31 @@
                       </li>
 
                       <li class="nav-item">
-                        <a class="nav-link" href="#0" data-no="3">Quien Soy?.</a>
+                        <a class="nav-link" href="#0" data-no="2">Quien Soy?.</a>
                         <div class="circle"></div>
                       </li>
 
                       <li class="nav-item">
-                        <a class="nav-link" href="#0" data-no="2">Lecturas Registros Akashicos.</a>
+                        <a class="nav-link" href="#0" data-no="3">Lecturas Registros Akashicos.</a>
                         <div class="circle"></div>
                       </li>
                       
                       <li class="nav-item">
-                        <a class="nav-link" href="#0" data-no="6">Constelaciones Multidimensionales.</a>
+                        <a class="nav-link" href="#0" data-no="4">Constelaciones Multidimensionales.</a>
                         <div class="circle"></div>
                       </li>
 
                       <li class="nav-item">
-                        <a class="nav-link" href="#0" data-no="7">Revisar Testimonios.</a>
+                        <a class="nav-link" href="#0" data-no="5">Revisar Testimonios.</a>
                         <div class="circle"></div>
                       </li>
 
                       <li class="nav-item">
-                        <a class="nav-link" href="#0" data-no="5">Twitter.</a>
+                        <a class="nav-link" href="#0" data-no="6">Sigueme en Twitter.</a>
                         <div class="circle"></div>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#0" data-no="4">Metodos de Contacto.</a>
+                        <a class="nav-link" href="#0" data-no="7">Metodos de Contacto.</a>
                         <div class="circle"></div>
                       </li>
                     </ul>
@@ -102,160 +102,25 @@
 
 
 
+          <li data-page-no="2" class="px-3">
+            <div class="position-relative page-width-1 page-right tm-border-top tm-border-bottom">
+              <div class="circle intro-circle-1"></div>
+              <div class="circle intro-circle-2"></div>
+              <div class="circle intro-circle-3"></div>
+              <div class="circle intro-circle-4"></div>
+              <div class="tm-bg-dark content-pad">
+                <h2 class="mb-4">¿Quién soy?.</h2>
+                <p class="mb-4">
+                  El punta pie inicial de mi propio camino fue el preguntarme el ¿por qué? me ocurren ciertas situaciones que no encuentro la explicación, una respuesta, que solo yo podría descubrir. 
+Mi propio autoconocimiento me llevo a estudiar, a aprender, a buscar un lugar en donde me guiaran a entender en pocas palabras mi “yo”.
+Encontré mediante personas que no conocía una escuela “RAM” en donde me enseñaron a conectarme con mi ser interior, mi registro akashico, un poder divino el cual no conocía, una esencia, una energía que poseemos cada uno de nosotros tallado en nuestra alma, ese punto clave del despertar.
+Esta búsqueda interna, de saber qué es lo que soy, me ha llevado por etapas difíciles de comprender, ciclones que sientes que te destruyen todo lo que eres, todo lo que has construido en este mundo, que crees que es real, pero te das cuenta de que no es así, que lo que te mostraron, te dijeron, te enseñaron, no es lo que es. 
+He dedicado estos últimos años a crecer enormemente, a potenciar mi esencia, a palpar mi propio registro akashico y vivenciar el de otros, pudiendo descubrir que una de las cosas que deseo, es entregar a las personas su propio comienzo de su “yo”.  
 
-
-
-
-
-
-
-          <li data-page-no="2">
-            <div class="mx-auto position-relative gallery-container" >
-              
-              <div id="wrapper">  
-                
-                <div id="divx">
-
-                  <div class="div1">
-                    <form action="{{url_for('hogar')}}" method="post">
-                        <h3>Nombre:</h3>
-                        <input type="text" name="nombre" required/><br><br><br>
-                        <h3>Telefono/Celular:</h3>
-                        <input type="text" name="fono" required/><br><br><br>
-            
-                        <h3>Fecha/Dia:</h3>
-                        <input type="date" name="fecha" id="datex" required/><br><br><br>
-            
-                        <label for="hora"><h3>Hora</h3></label>
-                        <select id="hora" name="hora">
-                            <option value="10">10:00</option>
-                            <option value="11">11:00</option>                
-                            <option value="12">12:00</option>
-                            <option value="15">15:00</option>
-                            <option value="16">16:00</option>
-                            <option value="17">17:00</option>
-                            <option value="18">18:00</option>
-                            <option value="19">19:00</option>
-                            <option value="20">20:00</option>
-                            <option value="21">21:00</option>
-                        </select>
-            
-                        <br><br><br><br>
-            
-                        <input type="submit" value="AGENDAR">
-                        <br><br>
-                    </form>
-                    </div>
-                <script type="text/javascript">
-                    $(function() {
-                        $( "#datepicker" ).datepicker({  minDate: new Date() });
-                    });
-                </script>
-            
-            {% with messages = get_flashed_messages() %}
-            {% if messages %}
-            
-                {% for message in messages %}
-                
-            
-                <script type="text/javascript">
-                    window.onload = function(){
-                        alert('{{msg}}{{message}}');
-                    }
-                </script>
-                
-                
-                
-            
-                {% endfor %}
-            
-            {% endif %}
-            {% endwith %}
-
-                </div>
-
-
-
-              </div>
-
-
+                </p>
+              </div>              
             </div>
           </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <li data-page-no="6">
-            <div class="mx-auto position-relative gallery-container" >
-              
-              <div id="wrapper">  
-                
-                <div id="divx">
-
-                  <div class="div1">
-                    
-                     <table>
-                        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque quidem illum explicabo autem. Facere facilis suscipit quisquam vel perferendis! Aliquid amet minus quasi quod incidunt accusamus eveniet debitis, ad necessitatibus culpa placeat optio officiis nemo non aliquam qui dolorum!</h1>
-                     </table>
-
-
-                    </div>
-                
-                
-
-                </div>
-
-
-
-              </div>
-
-
-            </div>
-          </li>
-
-
-
-
-
-
-
-
-          <li data-page-no="7">
-            <div class="mx-auto position-relative gallery-container">
-              
-
-                <div class="wrapper">
-                    <div id="divx">
-    
-                      <div class="div1">
-
-
-                        
-                      </div>
-                    </div>
-                    
-            </div>
-          </li>
-
-
-
-
-
-
-
-
-
-
 
 
           <li data-page-no="3" class="px-3">
@@ -265,19 +130,54 @@
               <div class="circle intro-circle-3"></div>
               <div class="circle intro-circle-4"></div>
               <div class="tm-bg-dark content-pad">
-                <h2 class="mb-4">Quien soy</h2>
+                <h2 class="mb-4">¿Qué es una lectura de registros akashicos?.</h2>
                 <p class="mb-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi optio animi provident dolorum impedit, delectus veritatis aliquid dolores, esse rerum error ullam natus!
-                </p>
-                <p>
-                  Praesent auctor rhoncus arcu, vitae blandit est vestibulum sit amet. Integer erat
-                  turpis, vestibulum pellentesque aliquam ultricies, finibus nec dui. Donec bibendum
-                  enim mi, at tristique leo feugiat at. Thank you for visiting Template Mo.
+                  Antes de explicar que es una lectura de registro akashico, les diré que es el registro akashico.
+                  Es más conocido como la biblioteca cósmica, un lugar energético en donde encuentras toda la información que necesitas, pero no me gusta llamarlo de esa forma ya que es grande que una biblioteca. 
+                  Solo imagina que cada ser humano, posee una información, ahora ve más allá, tu alma posee información de esta vida y todas las que has tenido que pueden ser 100 hasta miles de vidas, ahora profundicemos un poco más. Imagina si posee esos miles de vidas no solo en este planeta si no en otros planes y otros planos, los cuales pueden ser millones más. Y si Vaz más allá, te darás cuenta de que cada animal y cosa posee más información aún. Es mucho más grande que una biblioteca, eso es el registro akashico, un multiverso infinito de información que puedes poseer mediante una lectura.
+                  La lectura de registro akashico, se basa en eso, en poder entregarte toda la información que necesites de esta vida y de todas aquellas que tú mente podría imaginar, ya sea pasado, presente, futuro, otras dimensiones, solución de problemas, creación de ideas diferentes, opciones para transformar tu vida, información de mascotas, etc. Es conciencia pura de que existe un “todo”.
                 </p>
               </div>              
             </div>
           </li>
-          <li data-page-no="4">
+
+
+          <li data-page-no="4" class="px-3">
+            <div class="position-relative page-width-1 page-right tm-border-top tm-border-bottom">
+              <div class="circle intro-circle-1"></div>
+              <div class="circle intro-circle-2"></div>
+              <div class="circle intro-circle-3"></div>
+              <div class="circle intro-circle-4"></div>
+              <div class="tm-bg-dark content-pad">
+                <h2 class="mb-4">¿Qué es una constelación multidimensional?.</h2>
+                <p class="mb-4">
+                  La constelación familiar es una técnica terapéutica que se utiliza para explorar y comprender las dinámicas familiares, emocionales, mentales y las relaciones interpersonales. Fueron desarrolladas por Bert Hellinger, un terapeuta alemán, que se basa en las experiencias no resueltas en generaciones anteriores que pueden influir en nuestra vida actual. 
+La constelación se estructura utilizando la información entregada por el consultante, mediate participantes o utilizando elementos simbólicos que representen al sistema, esto entregara información valiosa, para visualizar en donde se encuentra el quiebres, patrones, creencias, conflictos o factores extras, que estén afectando su vida. Realizaremos movimientos significativos para poder sanar, solucionar, ordenar o generar cambios que ayuden a mejorar la relación de su sistema familiar. 
+La diversidad del multiverso es sutil y expandible en su esencia, esta elevación energética que nos da una constelación nos provee de conciencia almica y conciencia física que no solo será para ti, sino para todo su entorno familiar. De esta forma generamos un movimiento expansivo, que llegaras a palpar de tal forma que lo veras literalmente.  
+</p>
+              </div>              
+            </div>
+          </li>
+
+
+          <li data-page-no="6" class="px-3">
+            <div class="position-relative page-width-1 page-right tm-border-top tm-border-bottom">
+              <div class="circle intro-circle-1"></div>
+              <div class="circle intro-circle-2"></div>
+              <div class="circle intro-circle-3"></div>
+              <div class="circle intro-circle-4"></div>
+              <div class="tm-bg-dark content-pad">
+                <h2 class="mb-4">Sigueme en redes sociales.</h2>
+                <p class="mb-4">
+                  Twitter
+                </p>
+              </div>              
+            </div>
+          </li>
+
+
+
+          <li data-page-no="7">
             <div class="mx-auto page-width-2">
               <div class="row">
                 <div class="col-md-6 me-0 ms-auto">
@@ -325,30 +225,7 @@
 
 
 
-          <li data-page-no="5" class="px-3">
-            <div class="position-relative page-width-1 page-right tm-border-top tm-border-bottom">
-              <div class="circle intro-circle-1"></div>
-              <div class="circle intro-circle-2"></div>
-              <div class="circle intro-circle-3"></div>
-              <div class="circle intro-circle-4"></div>
-              <div class="tm-bg-dark content-pad">
-                <h2 class="mb-4">Sigueme en redes sociales.</h2>
-                <p class="mb-4">
-                  Twitter
-                </p>
-                <p class="mb-4">
-                  Facebook
-                </p>
-                <p class="mb-4">
-                  Instagram
-                </p>
-                <p class="mb-4">
-                  Whatsapp
-                </p>
-              </div>              
-            </div>
-          </li>
-
+          
 
 
 
