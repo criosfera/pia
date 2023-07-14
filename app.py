@@ -6,11 +6,11 @@ import sys
  
 
 app=Flask(__name__)
-app.secret_key = "Ax1Ax1Ax1*.*16160606"
+app.secret_key = "AXIS"
 
 @app.route("/", methods=['GET'])
 def hogar():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000, host="0.0.0.0")
+    app.run(debug=False, port=5000, host="0.0.0.0")
